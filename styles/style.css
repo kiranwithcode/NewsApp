@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* margin: auto; */
+    height: 80px;
+    background-color: darksalmon;  
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+}
+#search_input{
+    width: 80%;
+    padding: 2px 15px;
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    font-size: 16px;   
+}
+#main{
+    display: flex;
+}
+#sidebar{
+    /* display: flex; */
+    width: 10%;
+    background-color: darksalmon;
+    padding: 40px;
+    min-height: 100vh;
+}
+#sidebar h3{
+    background-color: teal;
+    padding: 5px;
+    cursor: pointer;
+}
+#results{
+   
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+}
+#results>div{
+    display: flex;
+    border: 1px solid rgb(0, 90, 128);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+#detailed_news{
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+}
+.imgsearch{
+    width: 500px;
+    height: 400px;
+}
